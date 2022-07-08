@@ -57,7 +57,8 @@ nav {
 }
 
 .content-wrapper {
-  height: 100%;
+  position: relative;
+  min-height: 100%;
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
@@ -205,7 +206,7 @@ nav {
 }
 
 .skateboard-container {
-  position: fixed;
+  position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
